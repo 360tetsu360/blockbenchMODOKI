@@ -357,9 +357,14 @@ onload = function(){
     //https://360tetsu360.github.io/scaleResourcepack/chicken.geo.json
     //https://360tetsu360.github.io/scaleResourcepack/zombie.geo.json
     
-        $.getJSON("https://360tetsu360.github.io/scaleResourcepack/zombie.geo.json", (data) => {
+        /*$.getJSON("https://360tetsu360.github.io/scaleResourcepack/zombie.geo.json", (data) => {
         jsonModel(data)
+    })*/
+	jQuery(window).load(function() {
+		$.getJSON("https://360tetsu360.github.io/scaleResourcepack/zombie.geo.json", (data) => {
+        	jsonModel(data)
     })
+	}
     
     function jsonModel(data){
         
