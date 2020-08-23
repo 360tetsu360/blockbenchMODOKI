@@ -357,10 +357,6 @@ onload = function(){
     //https://360tetsu360.github.io/scaleResourcepack/chicken.geo.json
     //https://360tetsu360.github.io/scaleResourcepack/zombie.geo.json
     
-        /*$.getJSON("https://360tetsu360.github.io/scaleResourcepack/zombie.geo.json", (data) => {
-        jsonModel(data)
-    })*/
-    
     function jsonModel(data){
         
         if(Object.keys(data)[1] == "minecraft:geometry"){
